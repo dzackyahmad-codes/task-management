@@ -34,6 +34,7 @@ Manajemen tugas yang efektif sangat penting untuk meningkatkan produktivitas dan
 <!-- Tujuan dan Manfaat -->
 ## Tujuan dan Manfaat
 Tujuan: Mengembangkan aplikasi yang dapat mengelola, memprioritaskan, dan menyelesaikan tugas secara efisien.
+<br>
 Manfaat: Meningkatkan efisiensi, mengorganisir tugas dengan lebih baik, dan mempermudah pengawasan progres pekerjaan.
 
 <!-- Penjelasan Aplikasi -->
@@ -41,9 +42,12 @@ Manfaat: Meningkatkan efisiensi, mengorganisir tugas dengan lebih baik, dan memp
 Aplikasi Task Management akan memungkinkan pengguna untuk menambah, memprioritaskan, dan menyelesaikan tugas menggunakan queue, priority queue, stack, dan linked list. 
 <br>
 Fitur utama aplikasi mencakup:
-Menambah tugas dengan prioritas.
-Memproses tugas berdasarkan prioritas.
-Memindahkan tugas yang selesai ke stack.
+<br>
+1. Menambah tugas dengan prioritas.
+<br>
+2. Menampilkan tugas berdasarkan prioritas.
+<br>
+3. Memindahkan tugas yang selesai ke stack.
 
 
 <!-- Gambar Rancangan Antarmuka -->
