@@ -38,7 +38,9 @@ Manfaat: Meningkatkan efisiensi, mengorganisir tugas dengan lebih baik, dan memp
 
 <!-- Penjelasan Aplikasi -->
 ## Penjelasan Aplikasi
-Aplikasi Task Management akan memungkinkan pengguna untuk menambah, memprioritaskan, dan menyelesaikan tugas menggunakan queue, priority queue, stack, dan linked list. Fitur utama aplikasi mencakup:
+Aplikasi Task Management akan memungkinkan pengguna untuk menambah, memprioritaskan, dan menyelesaikan tugas menggunakan queue, priority queue, stack, dan linked list. 
+<br>
+Fitur utama aplikasi mencakup:
 Menambah tugas dengan prioritas.
 Memproses tugas berdasarkan prioritas.
 Memindahkan tugas yang selesai ke stack.
@@ -47,25 +49,37 @@ Memindahkan tugas yang selesai ke stack.
 <!-- Gambar Rancangan Antarmuka -->
 # Gambar Rancangan Antarmuka
 Tampilan Utama: Daftar tugas dengan status, tombol untuk menambah dan menyelesaikan tugas.
+<br>
 Task Detail: Menampilkan informasi tugas dan status dan ada fitur edit.
+<br>
 Menu: Menambah tugas, melihat tugas, menghapus tugas selesai, sortir tugas, searching.
+<br>
 User Settings: Nama dan panggilan users.
 
 <!-- Rencana Pengerjaan Proyek -->
 # Rancangan Pengerjaan Proyek
 Pembagian Kerja:
+<br>
 Dzacky & Jepri: Implementasi fitur utama (Queue, Priority Queue, Stack, Linked List).
+<br>
 Bayu: Pengujian dan debugging aplikasi.
-Note : Kita mengerjakan bersama-sama
+<br>
+Note : Kita mengerjakan bersama-sama :)
 
 Koordinasi:
+<br>
 GitHub: Manajemen kode dan kontrol versi.
+<br>
 Whatsapp Group : Komunikasi
 
 Timeline:
+<br>
 Penentuan Ide : Rabu, 21 Mei 2025
+<br>
 Kerja : Sekarang ~ H-5 Presentasi Akhir
+<br>
 Pengembangan Fitur (Opsional) :  H-5 ~ H-2 Presentasi Akhir
+<br>
 Debugging : H-2 ~ H-0 Presentasi Akhir
 
 
