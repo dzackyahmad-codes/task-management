@@ -23,29 +23,51 @@
 ## Anggota Tim
 | NPM           | Nama Lengkap    |
 | ------------- |-----------------|
-| 14081024....  |                 |
-| 14081024....  |                 |
-| 14081024....  |                 |
+| 140810230025  |      Bayu       |
+| 140810230043  |      Jeki       |
+| 140810230069  |     Jepri       |
 
 <!-- Latar Belakang -->
 ## Latar Belakang
-Tuliskan dasar dan permasalahan yang akan diangkat.
+Manajemen tugas yang efektif sangat penting untuk meningkatkan produktivitas dan efisiensi kerja. Tanpa sistem yang terorganisir, tugas-tugas seringkali tumpang tindih atau terlewatkan, menyebabkan keterlambatan dalam penyelesaian.
 
 <!-- Tujuan dan Manfaat -->
 ## Tujuan dan Manfaat
-Lampirkan tujuan dan manfaat aplikasi yang akan dibuat.
+Tujuan: Mengembangkan aplikasi yang dapat mengelola, memprioritaskan, dan menyelesaikan tugas secara efisien.
+Manfaat: Meningkatkan efisiensi, mengorganisir tugas dengan lebih baik, dan mempermudah pengawasan progres pekerjaan.
 
 <!-- Penjelasan Aplikasi -->
 ## Penjelasan Aplikasi
-Berisi deskripsi padat mengenai aplikasi. Dapat dicantumkan fitur yang ingin dibuat.
+Aplikasi Task Management akan memungkinkan pengguna untuk menambah, memprioritaskan, dan menyelesaikan tugas menggunakan queue, priority queue, stack, dan linked list. Fitur utama aplikasi mencakup:
+Menambah tugas dengan prioritas.
+Memproses tugas berdasarkan prioritas.
+Memindahkan tugas yang selesai ke stack.
+
 
 <!-- Gambar Rancangan Antarmuka -->
 # Gambar Rancangan Antarmuka
-Buat rancangan antarmuka selengkap mungkin sesuai fungsi aplikasi. Rancangan antarmuka diupayakan menggambarkan produk akhir. Tools yang digunakan dibebaskan.
+Tampilan Utama: Daftar tugas dengan status, tombol untuk menambah dan menyelesaikan tugas.
+Task Detail: Menampilkan informasi tugas dan status dan ada fitur edit.
+Menu: Menambah tugas, melihat tugas, menghapus tugas selesai, sortir tugas, searching.
+User Settings: Nama dan panggilan users.
 
 <!-- Rencana Pengerjaan Proyek -->
 # Rancangan Pengerjaan Proyek
-Berikan penjelasan cara bekerja sama dalam pengerjaan proyek, koordinasi, dan pembagian kerja.
+Pembagian Kerja:
+Dzacky & Jepri: Implementasi fitur utama (Queue, Priority Queue, Stack, Linked List).
+Bayu: Pengujian dan debugging aplikasi.
+Note : Kita mengerjakan bersama-sama
+
+Koordinasi:
+GitHub: Manajemen kode dan kontrol versi.
+Whatsapp Group : Komunikasi
+
+Timeline:
+Penentuan Ide : Rabu, 21 Mei 2025
+Kerja : Sekarang ~ H-5 Presentasi Akhir
+Pengembangan Fitur (Opsional) :  H-5 ~ H-2 Presentasi Akhir
+Debugging : H-2 ~ H-0 Presentasi Akhir
+
 
 <!-- Lisensi -->
 ## Lisensi
