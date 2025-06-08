@@ -1,0 +1,155 @@
+[08/06/2025 15:02] Tambah tugas: Regresi
+[08/06/2025 15:02] Tambah tugas: Klasifikasi
+[08/06/2025 15:02] Tambah tugas: Learning
+[08/06/2025 15:02] Tambah tugas: Regresi
+[08/06/2025 15:02] Tambah tugas: Klasifikasi
+[08/06/2025 15:02] Tambah tugas: Learning
+[08/06/2025 15:02] Edit tugas: Klasifikasi (kode 1)
+[08/06/2025 15:06] Tambah tugas: Regresi
+[08/06/2025 15:06] Tambah tugas: Reasoning
+[08/06/2025 15:06] Tambah tugas: Learning
+[08/06/2025 15:24] Tambah tugas:  (kode 1)
+[08/06/2025 15:24] Tambah tugas:  (kode 2)
+[08/06/2025 15:24] Tambah tugas:  (kode 3)
+[08/06/2025 15:24] Tambah tugas: Planning (kode 4)
+[08/06/2025 15:27] Tambah tugas: Regresi
+[08/06/2025 15:27] Tambah tugas: Reasoning
+[08/06/2025 15:27] Tambah tugas: Learning
+[08/06/2025 15:27] Fokus mode mulai: Reasoning (kode 1)
+[08/06/2025 15:27] Fokus mode selesai: Reasoning
+[08/06/2025 15:32] Tambah tugas: Regresi
+[08/06/2025 15:32] Tambah tugas: Reasoning
+[08/06/2025 15:32] Tambah tugas: Learning
+[08/06/2025 15:32] Tambah tugas: Implementasi Jaringan
+[08/06/2025 15:32] Tambah tugas: Debugging Program
+[08/06/2025 15:32] Tambah tugas: Proposal Penelitian
+[08/06/2025 15:32] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 15:32] Tambah tugas: Desain UI/UX
+[08/06/2025 15:32] Tambah tugas: Rapat Divisi
+[08/06/2025 15:32] Tambah tugas: Presentasi Proyek
+[08/06/2025 15:32] Tambah tugas: Laporan Akhir
+[08/06/2025 15:32] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 15:32] Tambah tugas: Analisis Data
+[08/06/2025 15:32] Tambah tugas: Web Development
+[08/06/2025 15:32] Tambah tugas: Konsultasi Dosen
+[08/06/2025 15:40] Tambah tugas: Regresi
+[08/06/2025 15:40] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 15:40] Tambah tugas: Reasoning
+[08/06/2025 15:40] Tambah tugas: Proposal Penelitian
+[08/06/2025 15:40] Tambah tugas: Rapat Divisi
+[08/06/2025 15:40] Tambah tugas: Analisis Data
+[08/06/2025 15:40] Tambah tugas: Konsultasi Dosen
+[08/06/2025 15:40] Tambah tugas: Implementasi Jaringan
+[08/06/2025 15:40] Tambah tugas: Desain UI/UX
+[08/06/2025 15:40] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 15:40] Tambah tugas: Debugging Program
+[08/06/2025 15:40] Tambah tugas: Presentasi Proyek
+[08/06/2025 15:40] Tambah tugas: Web Development
+[08/06/2025 15:40] Tambah tugas: Learning
+[08/06/2025 15:40] Tambah tugas: Laporan Akhir
+[08/06/2025 15:45] Tambah tugas: Regresi
+[08/06/2025 15:45] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 15:45] Tambah tugas: Reasoning
+[08/06/2025 15:45] Tambah tugas: Proposal Penelitian
+[08/06/2025 15:45] Tambah tugas: Rapat Divisi
+[08/06/2025 15:45] Tambah tugas: Analisis Data
+[08/06/2025 15:45] Tambah tugas: Konsultasi Dosen
+[08/06/2025 15:45] Tambah tugas: Implementasi Jaringan
+[08/06/2025 15:45] Tambah tugas: Desain UI/UX
+[08/06/2025 15:45] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 15:45] Tambah tugas: Debugging Program
+[08/06/2025 15:45] Tambah tugas: Presentasi Proyek
+[08/06/2025 15:45] Tambah tugas: Web Development
+[08/06/2025 15:45] Tambah tugas: Learning
+[08/06/2025 15:45] Tambah tugas: Laporan Akhir
+[08/06/2025 15:48] Tambah tugas: Regresi
+[08/06/2025 15:48] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 15:48] Tambah tugas: Reasoning
+[08/06/2025 15:48] Tambah tugas: Proposal Penelitian
+[08/06/2025 15:48] Tambah tugas: Rapat Divisi
+[08/06/2025 15:48] Tambah tugas: Analisis Data
+[08/06/2025 15:48] Tambah tugas: Konsultasi Dosen
+[08/06/2025 15:48] Tambah tugas: Implementasi Jaringan
+[08/06/2025 15:48] Tambah tugas: Desain UI/UX
+[08/06/2025 15:48] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 15:48] Tambah tugas: Debugging Program
+[08/06/2025 15:48] Tambah tugas: Presentasi Proyek
+[08/06/2025 15:48] Tambah tugas: Web Development
+[08/06/2025 15:48] Tambah tugas: Learning
+[08/06/2025 15:48] Tambah tugas: Laporan Akhir
+[08/06/2025 16:09] Tambah tugas: Regresi
+[08/06/2025 16:09] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 16:09] Tambah tugas: Reasoning
+[08/06/2025 16:09] Tambah tugas: Proposal Penelitian
+[08/06/2025 16:09] Tambah tugas: Rapat Divisi
+[08/06/2025 16:09] Tambah tugas: Analisis Data
+[08/06/2025 16:09] Tambah tugas: Konsultasi Dosen
+[08/06/2025 16:09] Tambah tugas: Implementasi Jaringan
+[08/06/2025 16:09] Tambah tugas: Desain UI/UX
+[08/06/2025 16:09] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 16:09] Tambah tugas: Debugging Program
+[08/06/2025 16:09] Tambah tugas: Presentasi Proyek
+[08/06/2025 16:09] Tambah tugas: Web Development
+[08/06/2025 16:09] Tambah tugas: Learning
+[08/06/2025 16:09] Tambah tugas: Laporan Akhir
+[08/06/2025 16:09] Tambah tugas: Database
+[08/06/2025 16:13] Hapus tugas: Sistem Database (kode 16)
+[08/06/2025 16:13] Selesai tugas:  (kode 1)
+[08/06/2025 16:15] Fokus mode mulai: Regresi (kode 2)
+[08/06/2025 16:15] Fokus mode selesai: Regresi
+[08/06/2025 16:15] Tambah tugas: Rapat Divisi
+[08/06/2025 16:15] Tambah tugas: Regresi
+[08/06/2025 16:15] Tambah tugas: Presentasi Proyek
+[08/06/2025 16:15] Tambah tugas: Konsultasi Dosen
+[08/06/2025 16:15] Tambah tugas: Debugging Program
+[08/06/2025 16:15] Tambah tugas: Proposal Penelitian
+[08/06/2025 16:15] Tambah tugas: Learning
+[08/06/2025 16:15] Tambah tugas: Desain UI/UX
+[08/06/2025 16:15] Tambah tugas: Implementasi Jaringan
+[08/06/2025 16:15] Tambah tugas: Analisis Data
+[08/06/2025 16:15] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 16:15] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 16:15] Tambah tugas: Laporan Akhir
+[08/06/2025 16:15] Tambah tugas: Web Development
+[08/06/2025 16:19] Tambah tugas: Rapat Divisi
+[08/06/2025 16:19] Tambah tugas: Regresi
+[08/06/2025 16:19] Tambah tugas: Presentasi Proyek
+[08/06/2025 16:19] Tambah tugas: Konsultasi Dosen
+[08/06/2025 16:19] Tambah tugas: Debugging Program
+[08/06/2025 16:19] Tambah tugas: Proposal Penelitian
+[08/06/2025 16:19] Tambah tugas: Learning
+[08/06/2025 16:19] Tambah tugas: Desain UI/UX
+[08/06/2025 16:19] Tambah tugas: Implementasi Jaringan
+[08/06/2025 16:19] Tambah tugas: Analisis Data
+[08/06/2025 16:19] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 16:19] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 16:19] Tambah tugas: Laporan Akhir
+[08/06/2025 16:19] Tambah tugas: Web Development
+[08/06/2025 16:25] Tambah tugas: Analisis Data
+[08/06/2025 16:25] Tambah tugas: Debugging Program
+[08/06/2025 16:25] Tambah tugas: Desain UI/UX
+[08/06/2025 16:25] Tambah tugas: Implementasi Jaringan
+[08/06/2025 16:25] Tambah tugas: Konsultasi Dosen
+[08/06/2025 16:25] Tambah tugas: Laporan Akhir
+[08/06/2025 16:25] Tambah tugas: Learning
+[08/06/2025 16:25] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 16:25] Tambah tugas: Presentasi Proyek
+[08/06/2025 16:25] Tambah tugas: Proposal Penelitian
+[08/06/2025 16:25] Tambah tugas: Rapat Divisi
+[08/06/2025 16:25] Tambah tugas: Regresi
+[08/06/2025 16:25] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 16:25] Tambah tugas: Web Development
+[08/06/2025 16:26] Tambah tugas: Regresi
+[08/06/2025 16:26] Tambah tugas: Rapat Divisi
+[08/06/2025 16:26] Tambah tugas: Presentasi Proyek
+[08/06/2025 16:26] Tambah tugas: Debugging Program
+[08/06/2025 16:26] Tambah tugas: Konsultasi Dosen
+[08/06/2025 16:26] Tambah tugas: Proposal Penelitian
+[08/06/2025 16:26] Tambah tugas: Learning
+[08/06/2025 16:26] Tambah tugas: Desain UI/UX
+[08/06/2025 16:26] Tambah tugas: Implementasi Jaringan
+[08/06/2025 16:26] Tambah tugas: Analisis Data
+[08/06/2025 16:26] Tambah tugas: Ujian Tengah Semester
+[08/06/2025 16:26] Tambah tugas: Pemrograman Lanjut
+[08/06/2025 16:26] Tambah tugas: Laporan Akhir
+[08/06/2025 16:26] Tambah tugas: Web Development
