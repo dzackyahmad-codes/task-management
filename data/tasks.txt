@@ -1,14 +1,17 @@
-2|Regresi|1|9|6|2025|AI|0
-7|Ujian Tengah Semester|1|17|6|2025|Akademik|0
-15|Konsultasi Dosen|2|11|6|2025|Akademik|0
-6|Proposal Penelitian|2|12|6|2025|Riset|1
-13|Analisis Data|2|16|6|2025|Data Science|0
 9|Rapat Divisi|2|9|6|2025|Organisasi|0
-8|Desain UI/UX|3|14|6|2025|Desain|1
-4|Implementasi Jaringan|3|15|6|2025|Jaringan|0
-12|Pemrograman Lanjut|3|18|6|2025|Pemrograman|0
 10|Presentasi Proyek|4|10|6|2025|Proyek|0
 5|Debugging Program|4|11|6|2025|Pemrograman|0
+15|Konsultasi Dosen|2|11|6|2025|Akademik|0
+6|Proposal Penelitian|2|12|6|2025|Riset|1
+16|Integral|1|13|6|2025|Kalkulus|0
+3|Learning|5|13|6|2025|AI|1
+17|Planning|1|13|6|2025|AI|0
+8|Desain UI/UX|3|14|6|2025|Desain|0
+4|Implementasi Jaringan|3|15|6|2025|Jaringan|0
+13|Analisis Data|2|16|6|2025|Data Science|0
+7|Ujian Tengah Semester|1|17|6|2025|Akademik|0
+12|Pemrograman Lanjut|3|18|6|2025|Pemrograman|0
 14|Web Development|4|20|6|2025|Pemrograman|1
-11|Laporan Akhir|5|19|6|2025|Akademik|0
-3|Learning|5|13|6|2025|AI|0
+19|Pelatihan Medik|5|1|8|2025|CBS|0
+11|Laporan Aja|2|19|9|2025|Akademik|0
+20|Pemrograman Website|3|10|10|2025|Kuliah|0

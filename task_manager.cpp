@@ -54,11 +54,11 @@ const string quotes[] = {
 const int quoteCount = sizeof(quotes) / sizeof(quotes[0]); // Jumlah quote
 
 void playFocusMusic() {
-    system("afplay music/focus.mp3 &");  // Mainkan musik fokus di background (khusus Mac)
+    system("afplay music/focus.mp3 &");  // Mainkan musik fokus di background
 }
 
 void stopFocusMusic() {
-    system("killall afplay");  // Hentikan semua pemutaran afplay (musik fokus)
+    system("killall afplay");  // Hentikan semua pemutaran afplay
 }
 
 // Inisialisasi semua struktur data
@@ -71,15 +71,15 @@ void createList() {
 
 // Membuat node tugas baru
 TaskPtr createElement(string name, int priority, int day, int month, int year, string category, int code, bool isPinned) {
-    TaskPtr pBaru = new Task;
+    TaskPtr pBaru = new Task;  
     if (code == -1) { // Jika kode -1, generate otomatis
         pBaru->data.code = taskCounter++;
-    } else {
-        pBaru->data.code = code;
-        if (code >= taskCounter) taskCounter = code + 1;
+    } else {    // Jika kode diberikan
+        pBaru->data.code = code;    // Gunakan kode yang diberikan
+        if (code >= taskCounter) taskCounter = code + 1;    // Update counter jika kode lebih besar
     }
     pBaru->data.name = name; 
-    pBaru->data.priority = priority;
+    pBaru->data.priority = priority;   
     pBaru->data.deadline = {day, month, year};
     pBaru->data.category = category;
     pBaru->data.isPinned = isPinned;
@@ -89,12 +89,12 @@ TaskPtr createElement(string name, int priority, int day, int month, int year, s
 
 // Menambah tugas ke linked list (urut prioritas)
 void addTask(const string& name, int priority, int day, int month, int year, const string& category, int code, bool isPinned) {
-    TaskPtr pBaru = createElement(name, priority, day, month, year, category, code, isPinned );
+    TaskPtr pBaru = createElement(name, priority, day, month, year, category, code, isPinned ); // Buat node tugas baru
 
     if (!head) head = tail = pBaru; // List kosong
     else {  // List sudah ada, cari posisi berdasarkan prioritas
         TaskPtr pBantu = head;
-        while (pBantu && pBantu->data.priority <= priority) pBantu = pBantu->next;
+        while (pBantu && pBantu->data.priority <= priority) pBantu = pBantu->next;  // Cari posisi yang tepat
 
         if (!pBantu) { // Tambah di akhir
             tail->next = pBaru;
@@ -127,37 +127,37 @@ void deleteTask(int code) {
     while (pBantu) {    // Cari tugas dengan kode yang sesuai
         if (pBantu->data.code == code) {    // Jika ditemukan
             StackPtr pBaru = new StackNode{pBantu->data, redoTop}; // Simpan ke stack redo
-            redoTop = pBaru;
+            redoTop = pBaru;    // Pointer redoTop menunjuk ke pBaru
 
             if (pBantu->prev) pBantu->prev->next = pBantu->next;    // Update prev node
-            else head = pBantu->next;
+            else head = pBantu->next; head->prev = nullptr;   // Jika ini tugas pertama, update head
 
             if (pBantu->next) pBantu->next->prev = pBantu->prev;    // Update next node
-            else tail = pBantu->prev;
+            else tail = pBantu->prev; tail->next = nullptr; // Jika ini tugas terakhir, update tail
 
             logActivity("Hapus tugas: " + pBantu->data.name + " (kode " + to_string(code) + ")");
             delete pBantu;
             cout << "\033[1;33mTugas dengan kode " << code << " dihapus dan dapat diredo.\033[0m\n";
             return;
         }
-        pBantu = pBantu->next;
+        pBantu = pBantu->next;  // Lanjut ke tugas berikutnya
     }
     cout << "\033[1;31mTugas tidak ditemukan.\033[0m\n";
 }
 
 // Tandai tugas selesai (pindah ke stack done)
 void finishTask(int code) {
-    TaskPtr pBantu = head;
+    TaskPtr pBantu = head; 
     while (pBantu) {
         if (pBantu->data.code == code) {
             StackPtr pSelesai = new StackNode{pBantu->data, doneTop}; // Simpan ke stack done
             doneTop = pSelesai;
 
-            if (pBantu->prev) pBantu->prev->next = pBantu->next;
-            else head = pBantu->next;
+            if (pBantu->prev) pBantu->prev->next = pBantu->next;    // Update prev
+            else head = pBantu->next; head->prev = nullptr;   //  Jika ini tugas pertama, update head
 
-            if (pBantu->next) pBantu->next->prev = pBantu->prev;
-            else tail = pBantu->prev;
+            if (pBantu->next) pBantu->next->prev = pBantu->prev;    // Update next
+            else tail = pBantu->prev; tail->next = nullptr; // Jika ini tugas terakhir, update tail
 
             delete pBantu;
 

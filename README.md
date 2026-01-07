@@ -1,90 +1,163 @@
-# UAS Struktur Data 2025
-<p align="center">
-  <h2 align="center">
-    Task Management
-  </h2>
-</p>
+# 🗂️ Task Manager CLI (C++)
 
-<!-- Daftar Isi -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Daftar Isi</h2></summary>
-  <ol>
-    <li><a href="#anggota-tim">Anggota Tim</a></li>
-    <li><a href="#latar-belakang">Latar Belakang</a></li>
-    <li><a href="#tujuan-dan-manfaat">Tujuan dan Manfaat</a></li>
-    <li><a href="#penjelasan-aplikasi">Penjelasan Aplikasi</a></li>
-    <li><a href="#gambar-rancangan-antarmuka">Gambar Rancangan Antarmuka</a></li>
-    <li><a href="#rencana-pengerjaan-proyek">Rencana Pengerjaan Proyek</a></li>
-    <li><a href="#lisensi">Lisensi</a></li>
-  </ol>
-</details>
+A **console-based Task Management application** built using **C++** that demonstrates the practical implementation of **core data structures** such as **Doubly Linked List, Stack, Queue**, combined with **file handling**, **multithreading**, and **focus productivity features**.
 
-<!-- Anggota Tim -->
-## Anggota Tim
-| NPM           | Nama Lengkap    |
-| ------------- |-----------------|
-| 140810230025  |      Bayu       |
-| 140810230043  |      Jeki       |
-| 140810230069  |     Jepri       |
+> 📌 **Author:** Dzacky Ahmad
+> 🎓 Informatics Engineering Undergraduate
+> 📚 Final Project – Data Structures & Algorithms
 
-<!-- Latar Belakang -->
-## Latar Belakang
-Manajemen tugas yang efektif sangat penting untuk meningkatkan produktivitas dan efisiensi kerja. Tanpa sistem yang terorganisir, tugas-tugas seringkali tumpang tindih atau terlewatkan, menyebabkan keterlambatan dalam penyelesaian.
+---
 
-<!-- Tujuan dan Manfaat -->
-## Tujuan dan Manfaat
-Tujuan: Mengembangkan aplikasi yang dapat mengelola, memprioritaskan, dan menyelesaikan tugas secara efisien.
-<br>
-Manfaat: Meningkatkan efisiensi, mengorganisir tugas dengan lebih baik, dan mempermudah pengawasan progres pekerjaan.
+## ✨ Features Overview
 
-<!-- Penjelasan Aplikasi -->
-## Penjelasan Aplikasi
-Aplikasi Task Management akan memungkinkan pengguna untuk menambah, memprioritaskan, dan menyelesaikan tugas menggunakan queue, priority queue, stack, dan linked list. 
-<br>
-Fitur utama aplikasi mencakup:
-1. Menambah tugas dengan prioritas.
-2. Menampilkan tugas berdasarkan prioritas.
-3. Memindahkan tugas yang selesai ke stack.
+* ➕ Add tasks with priority, category, and deadline
+* 📂 View tasks (all, today’s deadline, completed)
+* 🛠️ Manage tasks (edit, delete, redo, pin/unpin)
+* 📊 Statistics & filtering (by name, deadline, category, entry order)
+* 🧘 Focus Mode (timer + background music)
+* 🔔 Deadline reminder (today & tomorrow)
+* 🕓 Activity logging (history tracking)
+* 💾 Persistent storage (save & load from file)
+* 🎯 Random motivational quotes on startup
 
+---
 
-<!-- Gambar Rancangan Antarmuka -->
-# Gambar Rancangan Antarmuka
-Tampilan Utama: Daftar tugas dengan status, tombol untuk menambah dan menyelesaikan tugas.
-<br>
-Task Detail: Menampilkan informasi tugas dan status dan ada fitur edit.
-<br>
-Menu: Menambah tugas, melihat tugas, menghapus tugas selesai, sortir tugas, searching.
-<br>
-User Settings: Nama dan panggilan users.
+## 🧠 Data Structures Used
 
-<!-- Rencana Pengerjaan Proyek -->
-# Rancangan Pengerjaan Proyek
-Pembagian Kerja:
-<br>
-Dzacky & Jepri: Implementasi fitur utama (Queue, Priority Queue, Stack, Linked List).
-<br>
-Bayu: Pengujian dan debugging aplikasi.
-<br>
-Note : Kita mengerjakan bersama-sama :)
+| Structure          | Purpose                               |
+| ------------------ | ------------------------------------- |
+| Doubly Linked List | Main task storage & ordered traversal |
+| Stack              | Redo deleted tasks & completed tasks  |
+| Queue              | Track task entry order                |
+| File Handling      | Save/load tasks & activity logs       |
+| Multithreading     | Focus mode timer & user interruption  |
 
-Koordinasi:
-<br>
-GitHub: Manajemen kode dan kontrol versi.
-<br>
-Whatsapp Group : Komunikasi
+---
 
-Timeline:
-<br>
-Penentuan Ide : Rabu, 21 Mei 2025
-<br>
-Kerja : Sekarang ~ H-5 Presentasi Akhir
-<br>
-Pengembangan Fitur (Opsional) :  H-5 ~ H-2 Presentasi Akhir
-<br>
-Debugging : H-2 ~ H-0 Presentasi Akhir
+## 🖥️ Application Preview
 
+### 1️⃣ Main Menu
 
-<!-- Lisensi -->
-## Lisensi
+![Main Menu](img/1_menu.png)
 
-MIT License 2024
+### 2️⃣ Add Task
+
+![Add Task](img/2_tambahtugas.png)
+
+### 3️⃣ View Tasks
+
+![View Tasks](img/3_lihattugas.png)
+
+### 4️⃣ Manage Tasks
+
+![Manage Tasks](img/4_kelolatugas.png)
+
+### 5️⃣ Delete Task
+
+![Delete Task](img/5_hapustugas.png)
+
+### 6️⃣ Edit Task
+
+![Edit Task](img/6_edittugas.png)
+
+### 7️⃣ Edit Status / Finish Task
+
+![Edit Status](img/7_editstatus.png)
+
+### 8️⃣ Redo Task
+
+![Redo Task](img/8_redotugas.png)
+
+### 9️⃣ Pin / Unpin Task
+
+![Pin Task](img/9_pintugas.png)
+
+### 🔟 Statistics & Filter
+
+![Statistics](img/10_statistikfilter.png)
+
+### 1️⃣1️⃣ Sort by Name
+
+![Sort Name](img/11_urutnama.png)
+
+### 1️⃣2️⃣ Sort by Deadline
+
+![Sort Deadline](img/12_urutdeadline.png)
+
+### 1️⃣3️⃣ Summary Dashboard
+
+![Summary](img/13_ringkasan.png)
+
+### 1️⃣4️⃣ Filter by Category
+
+![Filter Category](img/14_filterkategori.png)
+
+### 1️⃣5️⃣ Entry Order (Queue)
+
+![Entry Order](img/15_urutanmasuk.png)
+
+### 1️⃣6️⃣ Focus Mode
+
+![Focus Mode](img/16_fokusmode.png)
+
+### 1️⃣7️⃣ Activity History
+
+![Activity Log](img/17_riwayataktivitas.png)
+
+### 1️⃣8️⃣ Exit Program
+
+![Exit](img/18_keluar.png)
+
+---
+
+## 📁 Project Structure
+
+```bash
+UAS-STRUKDAT-A-TUGASBESAR
+├── data/               # Task data & activity logs
+├── img/                # Application screenshots
+├── music/              # Focus mode background music
+├── task_manager.hpp    # Header (structures & declarations)
+├── task_manager.cpp    # Core implementation
+├── main.cpp             # Program entry point
+└── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+g++ main.cpp task_manager.cpp -o task_manager
+./task_manager
+```
+
+> ⚠️ **Note:** Focus mode music requires macOS (`afplay`). Adjust command for other OS if needed.
+
+---
+
+## 🎯 Learning Outcomes
+
+* Strong understanding of **manual memory management**
+* Practical use of **classic data structures**
+* Experience with **CLI UX design**
+* Implementing **multithreading & concurrency**
+* Clean modular code using header files
+
+---
+
+## 📌 Portfolio Note
+
+This project was **fully developed individually** by **Dzacky Ahmad** as part of a **Data Structures & Algorithms** course, demonstrating problem-solving skills, system design thinking, and clean C++ implementation.
+
+---
+
+## 🔗 Author
+
+* **Dzacky Ahmad**
+* Informatics Engineering Undergraduate
+* 📧 [dzackyahmad.career@gmail.com](mailto:dzackyahmad.career@gmail.com)
+
+---
+
+⭐ If you find this project interesting, feel free to give it a star!
